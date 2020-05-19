@@ -15,7 +15,7 @@ Wikipedia has become a primary source of information for millions across the glo
 
 ### Requirements
 
-Requires Python -v > 3.r.0 
+Requires Python -v > 3.4.0 
 
 ### Using WikipediaLinkHooker
 
