@@ -5,11 +5,8 @@ from nltk.tag.stanford import StanfordNERTagger,StanfordPOSTagger
 import json
 import os
 import requests
-from bs4 import BeautifulSoup as bs
-from AnswerParser import AnswerParser
 from collections import OrderedDict
 import re
-import psycopg2
 from nltk.corpus import stopwords
 
 class WikipediaLinkHooker:
@@ -19,7 +16,7 @@ class WikipediaLinkHooker:
 	"""
 	def __init__(self,text,window_size):
 		self.text = text;
-		self.pure_text = AnswerParser(self.text).getPureAnswerWOLinks()
+		self.pure_text = self.text
 
 		pos_model_file = "C://python34/ProjectDragonWolf/nlp_res/stanford_pos/models/english-bidirectional-distsim.tagger";
 		pos_jar_file = "C://python34/ProjectDragonWolf/nlp_res/stanford_pos/stanford-postagger.jar";
