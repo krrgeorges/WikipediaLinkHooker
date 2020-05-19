@@ -17,6 +17,11 @@ Wikipedia has become a primary source of information for millions across the glo
 
 Requires Python -v >= 3.4.0 
 
+Dependencies :
+* NLTK toolkit
+* BeautifulSoup
+* requests
+
 ### Using WikipediaLinkHooker
 
 Import the script and execute the following
