@@ -21,6 +21,7 @@ Dependencies :
 * NLTK toolkit
 * BeautifulSoup
 * requests
+* Stanford POS and NER tagger models if using adv_hook(). Please change the file variables in init accordingly.
 
 ### Using WikipediaLinkHooker
 
