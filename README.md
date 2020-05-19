@@ -5,7 +5,7 @@
 
 ### WikipediaLinkHooker
 
-WikipediaLinkHooker is a utility tool thats allows for improvement of content quality through adding wikipedia links to a word(eg: Geology) or group of words(Battle of the Bulge) if an article about a word or a group of words exists
+WikipediaLinkHooker is a utility tool thats allows for improvement of content quality through adding wikipedia links to a word(eg: Geology) or group of words(eg:Battle of the Bulge) if an article about a word or a group of words exists
 
 
 ### Why should I use this?
